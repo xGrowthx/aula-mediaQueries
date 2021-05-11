@@ -1,0 +1,63 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rebeccapurple;
+    text-align: center;
+
+}
+
+
+section{
+    margin-left: 90px;
+    width: 90%;
+
+}
+
+article{
+    top: 20px;
+    position: relative;
+    width: 50%;
+    margin: 0px;
+}
+
+#article1{
+    display: inline-block;
+}
+
+#article2{
+    float: right;
+}
+
+
+@media screen and (orientation: portrait), (min-width: 360px) and (max-width: 764px){
+    section{
+        margin-left: 10%;
+    }
+
+    article{
+        width: 90%;
+    }
+
+    #article1{
+        display: inline-block;
+    }
+
+    #article2{
+        top: 40px;
+        display: inline-block;
+        float: none;
+        
+    }
+
+}
+
+@media screen and (min-width: 764px) and (max-width: 1020) {
+    section{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
